@@ -1037,7 +1037,7 @@ blockquote {
 /* Slides */
 .rev_slider .tp-caption.NotGeneric-Title {
   font-family: 'Montserrat', sans-serif;
-  text-transform: uppercase;
+  text-transform: inherit;
   font-weight: 700;
 }
 .rev_slider .tp-caption.NotGeneric-SubTitle {
