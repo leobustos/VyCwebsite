@@ -328,7 +328,7 @@
                     data-actions='[{"event":"click","action":"jumptoslide","slide":"next","delay":""}]'
                     data-responsive_offset="on" 
                     data-responsive="off"                   
-                    style=""><a href='#contact' class='btn btn-main btn-transparent-light'>Contactanos</a>
+                    style=""><a href='#contact' class='btn btn-main btn-white'>Contactanos</a>
                   </div>
 
                 </li>
@@ -779,31 +779,36 @@
                 <div class="col-md-7 col-sm-7 p-bottom-30">
                     <div class="contact-form row">
 
-                        <form name="ajax-form" id="ajax-form" action="contact.php" method="post">
+                        <form action="">
                             <div class="col-sm-6 contact-form-item wow zoomIn">
-                                <input name="name" id="name" type="text"   placeholder="Nombre:"/>
-                                <span class="error" id="err-name">Por favor ingresa tu nombre</span>
+                                <input id="nombre" type="text"   placeholder="Nombre: "/>
+                                <!-- <span class="error" id="err-name">Por favor ingresa tu nombre </span> -->
                             </div>
                             <div class="col-sm-6 contact-form-item wow zoomIn">
-                                <input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
-                                <span class="error" id="err-email">Por favor ingrese su correo</span>
-                                <span class="error" id="err-emailvld">Formato incorrecto de correo</span>
+                                <input id="email"  type="text"  placeholder="E-Mail: *"/>
+                               <!--  <span class="error" id="err-email">Por favor ingrese su correo</span>
+                                <span class="error" id="err-emailvld">Formato incorrecto de correo</span> -->
                             </div>
                             <div class="col-sm-12 contact-form-item wow zoomIn">
                                 <textarea name="message" id="message" placeholder="Escribe tu mensaje.."></textarea>
                             </div>
                             <div class="col-sm-12 contact-form-item">
-                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="send" data-lang="en">Enviar WhatsApp</button>                
+                                <div id="respuesta"></div>
+                                <button class="send_message btn btn-main btn-theme wow fadeInUp" id="submit">Enviar WhatsApp</button>                
                             </div>
+                            <!-- 
                             <div class="clear"></div>   
                             <div class="error text-align-center" id="err-form">There was a problem validating the form please check!</div>
                             <div class="error text-align-center" id="err-timedout">The connection to the server timed out!</div>
-                            <div class="error" id="err-state"></div>
+                            <div class="error" id="err-state"></div> -->
+                            
                         </form> 
-                                    
+
+                        <script src="html/js/form.js"></script>
+                        <!--             
                         <div class="clearfix"></div>
                         <div id="ajaxsuccess">Successfully sent!!</div>
-                        <div class="clear"></div>
+                        <div class="clear"></div> -->
 
                     </div> <!-- /.contacts-form & inner row -->
                 </div> <!-- /.col -->
@@ -923,7 +928,9 @@
     <script src="html/inc/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
     <!-- Contact Form -->
-    <script src="html/js/contact.js"></script>
+    <!-- <script src="html/js/contact.js"></script> -->
+
+    
     
     <!-- Custom Plugin -->
     <script src="html/js/custom.js"></script>

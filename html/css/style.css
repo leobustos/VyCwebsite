@@ -29,10 +29,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 body {
-  background: #fff;
+  background: #8eccf5;
   font-size: 14px;
   font-family: 'Lato', sans-serif;
-  color: #767676;
+  color: #fff;
 }
 a {
   color: #ed5f5e;
@@ -83,7 +83,7 @@ section {
   display: block;
 }
 .light-bg {
-  background-color: #f8f8f8;
+  background-color: transparent;
 }
 .dark-bg {
   background-color: #434343;
@@ -432,18 +432,18 @@ overlay-light .YTPOverlay:before {
   color: #434343;
 }
 .btn-main.btn-theme {
-  background-color: #ed5f5e;
-  border: 1px solid #ed5f5e;
-  box-shadow: inset 0 0 0 0 #e51b1a;
-  -webkit-box-shadow: inset 0 0 0 0 #e51b1a;
+  background-color: #04ae11;
+  border: 1px solid #fff;
+  box-shadow: inset 0 0 0 0 #04ae11;
+  -webkit-box-shadow: inset 0 0 0 0 #04ae11;
 }
 .btn-main.btn-theme:hover,
 .btn-main.btn-theme:focus,
 .btn-main.btn-theme:active,
 .btn-main.btn-theme .active {
-  box-shadow: inset 0 100px 0 0 #e51b1a;
-  -webkit-box-shadow: inset 0 100px 0 0 #e51b1a;
-  border: 1px solid #e51b1a;
+  box-shadow: inset 0 100px 0 0 #04ae11;
+  -webkit-box-shadow: inset 0 100px 0 0 #04ae11;
+  border: 1px solid #fff;
 }
 .btn-main.btn-transparent {
   background-color: transparent;
@@ -484,7 +484,7 @@ h4,
 h5,
 h6 {
   font-family: 'Montserrat', sans-serif;
-  color: #434343;
+  color: #fff;
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -517,7 +517,7 @@ p {
   padding: 50px 0;
 }
 .section-subtitle {
-  color: #a9a9a9;
+  color: #fff;
 }
 .bigger-font {
   font-size: 50px;
@@ -793,7 +793,7 @@ blockquote {
   z-index: 999;
 }
 .navbar .navigation {
-  background-color: #fff;
+  background-color: #a4eaf4;
 }
 .navbar .container-fluid {
   padding: 0 50px;
@@ -905,7 +905,7 @@ blockquote {
 .navbar .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover {
   opacity: 1;
-  color: #ed5f5e;
+  color: #337ab7;
 }
 .nav .open > a,
 .nav .open > a:focus,
@@ -1069,7 +1069,7 @@ blockquote {
     09. Services Section
 ---------------------------------------------------*/
 .service {
-  background-color: #f8f8f8;
+  background-color: #1815ee;
   padding: 40px 30px 30px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
@@ -1227,7 +1227,7 @@ blockquote {
   color: #ed5f5e;
 }
 .pf-filter li .iso-active {
-  color: #ed5f5e;
+  color: #337ab7;
 }
 .pf-filter.pf-filter-gray .iso-button {
   background-color: #f8f8f8;
@@ -1999,11 +1999,11 @@ blockquote {
     21. Footer
 ---------------------------------------------------*/
 .site-footer {
-  background-color: #2a2a2a;
+  background-color: #a4eaf4;
   padding: 20px 0px;
 }
 .site-footer .copyright {
-  color: #909090;
+  color: #434343;
   margin: auto;
   margin-top: 15px;
 }
@@ -2021,7 +2021,7 @@ blockquote {
   height: 28px;
   line-height: 28px;
   text-align: center;
-  color: #a9a9a9;
+  color: #434343;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
